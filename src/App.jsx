@@ -17,7 +17,7 @@ function App() {
 
   return (
     <>
-<div className="relative w-[30px] right-0 xxxs:top-20 xxs:top-20 xs:top-20 xs:right-28 xxs:right-28 xxxs:right-28 md:w-[150px] sm:relative sm:-left-48 md:left-48 md:top-0 md:relative lg:w-[690px] lg:top-0 lg:mx-auto lg:-left-16 xl:w-[690px] 2xl:w-[690px] bg-white p-6 h-screen space-y-10">
+<div className="relative w-[30px] right-0 xxxs:top-20 xxs:top-20 xs:top-20 xs:right-28 xxs:right-28 xxxs:right-28 md:w-[150px] sm:relative sm: md:left-48 md:top-0 md:relative lg:w-[690px] lg:top-0 lg:mx-auto lg:-left-16 xl:w-[690px] 2xl:w-[690px] bg-white p-6 h-screen space-y-10">
         {posts.map((post, index) => (
           <div key={index}>
             <div className="border-t border-gray-300 h-px w-[468px] lg:w-[468px] md:w-[468px] md:left-0 lg:left-0 ml-[83px] relative top-[680px] xs:w-[440px] xs:left-4 "></div>
@@ -489,19 +489,35 @@ function App() {
 
      
 
+<div class="lg:flex lg:justify-center relative">
 
-<div class="lg:flex lg:justify-center">
-
- 
-  <div class="flex items-center justify-between
+<div class="
+    hidden 
     xxs:hidden xxxs:hidden 
-    xs:relative xs:left-80 xs:bottom-96 xs:w-10 xs:h-10 xs:justify-center xs:items-center xs:bg-white xs:rounded-full 
-    bottom-[0px] left-[0px] 
-    bg-white px-4 py-2 rounded-full shadow-md shadow-gray-300 w-fit space-x-3 
-    md:ml-[500px] md:mb-80 
-    lg:w-[220px] lg: lg:z-[9999]">
+    xs:block xs:relative xs:left-80 xs:-top-96 xs:w-10 xs:h-10 xs:justify-center xs:items-center xs:bg-white xs:rounded-full 
 
-  
+    lg:relative lg:ml-[350px] lg:-mt-[1389px] 
+    lg:flex lg:items-center lg:justify-between 
+    lg:w-[230px] lg:h-12 lg:px-6 lg:py-3 lg:rounded-full 
+    lg:shadow-lg lg:shadow-gray-400 lg:z-[9999]
+2x
+l:relative 2xl:left-[1000px] 2xl:-mt-[1030px]
+
+   md:relative md:ml-[190px] md:-mt-[1530px] 
+    md:flex md:items-center md:justify-between 
+    md:w-[230px] md:h-12 md:px-6 md:py-3 md:rounded-full 
+    md:shadow-lg md:shadow-gray-400 md:z-[9999]
+
+
+
+
+
+
+
+    bg-white px-4 py-2 rounded-full shadow-md shadow-gray-300 w-fit space-x-3
+  ">
+
+
     <div class="flex items-center space-x-2">
       <svg xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -513,10 +529,10 @@ function App() {
           stroke-linejoin="round"
           d="M7.5 14.25L10.5 11.25L13.5 14.25L16.5 11.25M21 12C21 16.4183 16.9706 20 12 20C10.6977 20 9.456 19.7531 8.33018 19.3091L3 21L4.69091 15.6698C4.24687 14.544 4 13.3023 4 12C4 7.58172 8.02944 4 13 4C17.9706 4 21 7.58172 21 12Z" />
       </svg>
-      <span class="text-black font-semibold xs:hidden lg:block">Messages</span>
+      <span class="text-black font-semibold xs:hidden lg:block md:block">Messages</span>
     </div>
 
- 
+    
     <div class="flex -space-x-2">
       <img class="w-8 h-8 rounded-full border-2 border-white object-cover"
         src="https://randomuser.me/api/portraits/men/32.jpg" />
@@ -528,6 +544,16 @@ function App() {
 
   </div>
 </div>
+
+
+
+
+
+
+
+
+
+
 </div>
       
     </>

@@ -8,9 +8,6 @@
     "build": "vite build",
     "preview": "vite preview"
   },
- "engines": {
-  "node": "22.x"
-},
   "dependencies": {
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -21,6 +18,19 @@
     "@vitejs/plugin-react": "^4.4.1",
     "autoprefixer": "^10.4.21",
     "postcss": "^8.5.6",
-    "tailwindcss": "^3.4.1"
-  }
+    "tailwindcss": "^3.4.17"
+  },
+  "description": "��#\u0000 \u0000I\u0000n\u0000s\u0000t\u0000a\u0000\r\u0000 \u0000",
+  "main": "postcss.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ahmad-dev-lab/Instagram.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ahmad-dev-lab/Instagram/issues"
+  },
+  "homepage": "https://github.com/Ahmad-dev-lab/Instagram#readme"
 }
