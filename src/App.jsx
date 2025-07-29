@@ -210,7 +210,7 @@ function App() {
  
     <div class="flex md:flex-col w-full justify-around md:justify-start md:items-start md:space-y-6 px-2 py-2 md:mt-6 2xl:mt-12">
 
-      <div class="flex flex-col md:flex-row items-center gap-1 md:gap-4 cursor-pointer md:ml-2 md:mt-5 lg:relative lg:left-3 md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-xl px-2 py-2 transition-colors duration-200">
+      <div class="flex flex-col md:flex-row items-center gap-1 md:gap-4 cursor-pointer md:ml-2 md:mt-5 lg:relative lg:left-3 md:pl-2 2xl:pl-4  hover:bg-gray-100 rounded-xl px-2 py-2 transition-colors duration-200">
         <img src="https://brandeps.com/icon-download/H/Home-icon-vector-28.svg" class="w-6 h-6 shrink-0" />
         <span class="hidden 2xl:inline text-sm font-semibold lg:inline">Home</span>
       </div>
