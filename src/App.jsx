@@ -2,6 +2,9 @@ import { useState } from "react";
 import "./index.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
+import PostCard from "./PostCard";
+
+
 
 function App() {
   const postData = {
@@ -20,7 +23,7 @@ function App() {
 <div className="relative w-[30px] right-0 xxxs:top-20 xxs:top-20 xs:top-20 xs:right-28 xxs:right-28 xxxs:right-28 md:w-[150px] sm:relative sm: md:left-48 md:top-0 md:relative lg:w-[690px] lg:top-0 lg:mx-auto lg:-left-16 xl:w-[690px] 2xl:w-[690px] bg-white p-6 h-screen space-y-10">
         {posts.map((post, index) => (
           <div key={index}>
-            <div className="border-t border-gray-300 h-px w-[468px] lg:w-[468px] md:w-[468px] md:left-0 lg:left-0 ml-[83px] relative top-[680px] xs:w-[440px] xs:left-4 "></div>
+
             <div className="flex flex-col items-start ml-[84px] ">
               <div className="flex items-center space-x-3 mb-2 w-[468px]">
                 <img
@@ -57,74 +60,14 @@ function App() {
                 </button>
               </div>
 
- <div className="w-[468px] bg-white p-4 mt-1">
-  <div className="flex justify-between items-center mb-2">
-    <div className="flex space-x-4">
-      <button className="text-gray-700 hover:text-black">
-        <img
-          className="w-5 h-5 relative right-3 bottom-2 xxs:left-1 xxxs:left-1 md:-left-3 lg:-left-2 xs:left-1"
-          src="https://brandeps.com/icon-download/H/Heart-icon-vector-33.svg"
-          alt="Like"
-        />
-      </button>
-      <button className="text-gray-700 hover:text-black">
-        <img
-          className="w-5 h-5 relative right-4 bottom-2 xxs:left-1  xxxs:left-1 lg:-left-2 md:-left-3 xs:left-1"
-          src="messenger.png"
-          alt="Messenger"
-        />
-      </button>
-      <button className="text-gray-700 hover:text-black">
-        <img
-          className="w-4 h-5 -rotate-[42deg] relative right-4 bottom-3 md:-left-3 xxs:left-1  xxxs:left-1 lg:-left-2 xs:left-1"
-          src="send.png"
-          alt="Send"
-        />
-      </button>
+
+
+
+
+  <div className="App">
+      
+      <PostCard />
     </div>
-    <button className="text-gray-700 hover:text-black">
-      <img
-        className="w-6 h-5 relative left-3 bottom-2 md:left-3 lg:left-3  xxxs:-left-1 xs:left-1 xxs:-left-1"
-        src="save.png"
-        alt="Save"
-      />
-    </button>
-  </div>
-
-  <div className="text-sm">
-    <span className="font-semibold relative right-3 xxs:left-1  xxxs:left-1 md:-left-3 lg:-left-2 xs:left-1">
-      {post.username}
-    </span>
-    <span className="relative right-3 xs:left-1 xxs:left-1  xxxs:left-1 md:-left-3 lg:-left-2">
-      {post.caption}{" "}
-      <span className="text-gray-500">more</span>
-    </span>
-  </div>
-
-  <div className="mt-2 flex items-center text-gray-500 xxs:left-1  xxxs:left-1 text-sm relative md:-left-3 right-3 lg:-left-2 xs:left-1">
-    Add a comment...
-
-    {/* Outline emoji icon */}
-    <div className="relative ml-2 group">
-      <img
-          src="emoji.png"
-  alt="comment emoji"
-  className="relative w-5 h-5 cursor-pointer md:left-80 lg:left-80 xs:left-[295px] xxs:left-[295px] xxxs:left-[292px] "
-        
-      />
-      <div className="absolute bottom-[-80px] lg:left-80 md:left-80 left-0 hidden group-hover:flex bg-white border border-gray-300 rounded shadow-md p-2 gap-1 z-[9999] w-44 flex-wrap text-xl">
-        <span className="cursor-pointer">😀</span>
-        <span className="cursor-pointer">😂</span>
-        <span className="cursor-pointer">😍</span>
-        <span className="cursor-pointer">😎</span>
-        <span className="cursor-pointer">🥲</span>
-        <span className="cursor-pointer">😢</span>
-        <span className="cursor-pointer">🥰</span>
-        <span className="cursor-pointer">👍</span>
-      </div>
-    </div>
-  </div>
-</div>
             </div>
           </div>  
 
