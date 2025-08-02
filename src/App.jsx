@@ -20,7 +20,9 @@ function App() {
 
   return (
     <>
-<div className="relative w-[30px] right-0 xxxs:top-20 xxs:top-20 xs:top-20 xs:right-28 xxs:right-28 xxxs:right-28 md:w-[150px] sm:relative sm: md:left-48 md:top-0 md:relative lg:w-[690px] lg:top-0 lg:mx-auto lg:-left-16 xl:w-[690px] 2xl:w-[690px] bg-white p-6 h-screen space-y-10">
+       <div className="relative w-full overflow-x-hidden">
+          <div className="max-w-screen-2xl w-full mx-auto px-4 sm:px-6 md:px-8">
+<div className="hidden relative w-[30px] right-0 xxxs:top-20 xxs:top-20 xs:top-20 xs:right-28 xxs:right-28 xxxs:right-28 md:w-[150px] sm:relative sm: md:left-48 md:top-0 md:relative lg:w-[690px] lg:top-0 lg:mx-auto lg:-left-16 xl:w-[690px] 2xl:w-[690px] bg-white p-6 h-screen space-y-10">
         {posts.map((post, index) => (
           <div key={index}>
 
@@ -499,9 +501,11 @@ function App() {
 
 
 </div>
-      
+      </div>
+      </div>
     </>
   );
+  
 }
 
 export default App;
