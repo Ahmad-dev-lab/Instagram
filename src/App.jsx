@@ -183,46 +183,46 @@ function App() {
  
     <div class="flex md:flex-col w-full justify-around md:justify-start md:items-start md:space-y-6 px-2 py-2 2xl:mt-12">
 
-      <div class="flex flex-col w-48 md:flex-row items-center gap-1 md:gap-4 cursor-pointer md:ml-2 md:mt-5 lg:relative lg:left-3 md:pl-2 2xl:pl-4  hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
+      <div class="flex flex-col w-48 xl:w-48 md:w-12 md:flex-row items-center gap-1 md:gap-4 cursor-pointer md:ml-2 md:mt-5 lg:relative lg:left-3 md:pl-2 2xl:pl-4  hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
         <img src="https://brandeps.com/icon-download/H/Home-icon-vector-28.svg" class="w-6 h-6 shrink-0" />
         <span class="hidden 2xl:inline text-sm font-semibold lg:inline">Home</span>
       </div>
 
-      <div class="flex flex-col md:flex-row   w-48 items-center xs:hidden xxs:hidden xxxs:hidden lg:relative lg:left-3 gap-1 md:gap-4 md:ml-2 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
+      <div class="flex flex-col md:flex-row xl:w-48 md:w-12  w-48 items-center xs:hidden xxs:hidden xxxs:hidden lg:relative lg:left-3 gap-1 md:gap-4 md:ml-2 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
         <img src="https://brandeps.com/icon-download/S/Search-icon-vector-19.svg" class="w-6 h-6 shrink-0" />
         <span class="hidden 2xl:inline text-sm lg:inline">Search</span>
       </div>
 
-      <div class="flex flex-col md:flex-row  w-48 items-center lg:relative lg:left-3 gap-1 md:ml-2 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
+      <div class="flex flex-col md:flex-row xl:w-48 md:w-12 w-48 items-center lg:relative lg:left-3 gap-1 md:ml-2 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
         <img src="image.png" class="w-6 h-6 shrink-0" />
         <span class="hidden 2xl:inline text-sm lg:inline">Explore</span>
       </div>
 
-      <div class="flex flex-col md:flex-row  w-48 items-center xxxs:relative xxxs:top-1 lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
+      <div class="flex flex-col md:flex-row xl:w-48 md:w-12 w-48 items-center xxxs:relative xxxs:top-1 lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
         <img src="reel.png" class="w-5 h-5 shrink-0" />
         <span class="hidden 2xl:inline text-sm lg:inline">Reels</span>
       </div>
 
 
-      <div class="flex flex-col md:flex-row  w-48 items-center lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
+      <div class="flex flex-col md:flex-row xl:w-48 md:w-12 w-48 items-center lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
         <img src="Plus.png" class="w-6 h-6 shrink-0" />
         <span class="hidden 2xl:inline text-sm lg:inline">Create</span>
       </div>
 
 
-      <div class="flex flex-col md:flex-row  w-48 items-center lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
+      <div class="flex flex-col md:flex-row xl:w-48 md:w-12 w-48 items-center lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
         <img src="send.png" class="w-5 h-5 -rotate-45 shrink-0" />
         <span class="hidden 2xl:inline text-sm lg:inline">Messages</span>
       </div>
 
-      <div class="flex flex-col md:flex-row  w-48 items-center lg:relative xs:hidden xxs:hidden xxxs:hidden lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
+      <div class="flex flex-col md:flex-row xl:w-48 md:w-12 w-48 items-center lg:relative xs:hidden xxs:hidden xxxs:hidden lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
         <img src="https://brandeps.com/icon-download/H/Heart-icon-vector-33.svg" class="w-6 h-6 shrink-0" />
         <span class="hidden 2xl:inline text-sm lg:inline">Notification</span>
       </div>
 
 <div class="flex items-center gap-2
      xxs:hidden xxxs:hidden xl:flex 
-     w-48 
+     w-48 xl:w-48 md:w-12
      lg:relative lg:left-3 md:ml-2 
      md:pl-2 2xl:pl-4 
      hover:bg-gray-100 
@@ -241,22 +241,23 @@ function App() {
 
 
 
-      <div class="flex flex-col md:flex-row items-center w-48 lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer rounded-lg md:pl-2 2xl:pl-4 hover:bg-gray-100  px-2 py-2 transition-colors duration-200">
+      <div class="flex flex-col md:flex-row xl:w-48 md:w-12 items-center w-48 lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer rounded-lg md:pl-2 2xl:pl-4 hover:bg-gray-100  px-2 py-2 transition-colors duration-200">
         <img src="exeonic..png" class="rounded-full w-6 h-6 shrink-0 border border-gray-400" />
         <span class="hidden 2xl:inline text-sm lg:inline">Profile</span>
       </div>
 
 
-
-<div class="hidden 2xl:flex items-center gap-3 w-48 cursor-pointer 2xl:ml-8 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
+<div className="relative top-36 gap-10">
+<div class="hidden 2xl:flex mt-full xl:w-48 md:w-12 items-center gap-3 w-48 cursor-pointer 2xl:ml-8 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
   <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAACNCAMAAAC9gAmXAAAAY1BMVEX///8AAAD8/PyqqqrExMQrKyvm5uaamprR0dHx8fE+Pj7U1NTMzMwuLi7JyclFRUXg4OBubm6AgIBzc3MfHx+goKBaWloaGho3NzcmJia9vb23t7eIiIgVFRVSUlIODg6QkJDm/pTEAAACAklEQVR4nO3c25qCIBQF4K0VYVimppkd7P2fcsTUcLybuVj7Yv1PsD5A2QgoQkREaiTutMU4ueRXlnOZdRFKl5XnsF1yWJJJPrePa9BZeo0be+mCTjK4maGbNLSMd4j7NG90itlexOzQIWZNInd0hkArJTpCoJAjOkLgIOgEoaeqNJFoedt4japRXKp6wu9aZinv0tcVD3SI2dvPmloa5zaUOA4dYzQWOOkTHaR3tVPxZw7oLFFmgsp4i62M83a5aIiNu28w7tbE/1h6ERERERER0UKMso6SVnmzw2jyKl1meUGX4VH0CvJU4CxeNY0X/M6dV37Gzx6dY7T3YU7oFDPb9xN6AH/VIhadIeAUbST6kaOno3xX4Y4IrF2U7U9d0QkCV6nREQK1mjext1f1vrES6+mqOtb0Mrbq5nBl9Y2O2m/zLUVtjZ0gutot6nRbldkRsmQ4ZnllZUXReoqIiIiIiIj+JjYp6CjkZrM6C9kqOid6xl+xOM5naE8azhc/x907LZ/aho8miZbv18O59AKdYvboR7CWphlu3um666Hjg+hHKXqu3Wm7zdWp2rvrBH+x4uug6HXj7yS26AiBVgx+/p74eVzLhtDn0EusZRwPd6DF6LhcdhvrLRV357P51wIJ/jEvwv8umCLDVRZdVoT/XBjax6Wg/1Gkq/9REBER0A/kFD2UMwrP0QAAAABJRU5ErkJggg==" class="w-6 h-6 shrink-0" />
   <span class="text-sm font-medium">More</span>
 </div>
 
 
-<div class="hidden 2xl:flex items-center gap-3 w-48 cursor-pointer 2xl:ml-8 2xl hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
+<div class="hidden 2xl:flex items-center xl:w-48 md:w-12 gap-3 w-48 cursor-pointer 2xl:ml-8 2xl hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
   <img src="data:image/png;base64,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" class="w-6 h-6 shrink-0" />
   <span class="text-sm font-medium">Also from Meta</span>
+</div>
 </div>
 
 
@@ -479,7 +480,7 @@ function App() {
 <div class="flex p-4 relative
   xxxs:ml-2 sm:ml-4
   2xl:fixed 2xl:right-[2%] 2xl:top-[85%]
-  xl:fixed xl:right-[7%] xl:top-[84%] xl:z-[9999] xl:block 
+  xl:fixed xl:right-[7%] xl:top-[73%] xl:z-[9999] xl:block 
   md:fixed md:right-[6%] md:top-[60%] md:z-[9999] md:block
   sm:fixed sm:right-[15%] sm:top-[60%] sm:z-[9999] sm:block
   xs:hidden xxs:hidden xxxs:hidden
