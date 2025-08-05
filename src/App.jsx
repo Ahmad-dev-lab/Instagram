@@ -22,7 +22,24 @@ function App() {
     <>
 <div className="w-screen overflow-x-hidden">
   <div className="max-w-screen-2xl mx-auto px-4 sm:px-6 md:px-8">
-<div className="relative w-[30px] right-0 xxxs:top-20 xxs:top-20 xs:top-20 xs:right-28 xxs:right-28 xxxs:right-28 md:w-[150px] sm:relative sm: md:left-48 md:top-0 md:relative lg:w-[690px] lg:top-0 lg:mx-auto lg:-left-16 xl:w-[690px] 2xl:w-[690px] bg-white p-6 h-screen space-y-10">
+<div className="
+  relative 
+  w-[30px] 
+  xxxs:top-20 xxxs:right-[124px]
+  xxs:top-20 xxs:-left-[125px]
+  xs:top-20 xs:right-28 xs:block
+  sm:relative 
+
+  md:relative md:top-0 md:mx-auto md:w-[690px] md:left-8 md:right-0
+  lg:w-[690px] lg:mx-auto lg:left-0 lg:right-0 
+  xl:w-[690px] 
+  2xl:w-[690px] 
+
+  bg-white p-6 h-screen space-y-10
+">
+
+
+
         {posts.map((post, index) => (
           <div key={index}>
 
@@ -31,33 +48,44 @@ function App() {
                 <img
                   src={post.logo}
                   alt="Exeonic Logo"
-                  className="w-9 h-9 rounded-full border border-gray-300 md:left-0 object-cover lg:left-0 xs:w-8 xs:h-8  xs:relative xs:left-6 xs:top-0 xxs:relative xxs:left-6 xxs:top-0 xxxs:relative xxxs:left-6 xxxs:top-0"
+                  className="w-9 h-9 rounded-full border border-gray-300 md:left-0 object-cover lg:left-0 xs:w-8 xs:h-8  xs:relative xs:left-6 xs:top-0 xxs:relative xxs:left-3 xxs:top-0 xxxs:relative xxxs:left-3 xxxs:top-0"
                 />
-                <span className="text-[14px] font-semibold text-black lg:left-0 md:left-0  xs:relative xs:left-6 xxs:relative xxs:left-6 xxs:top-0 xxxs:relative xxxs:left-6 xxxs:top-0">
+                <span className="text-[14px] font-semibold text-black lg:left-0 md:left-0  xs:relative xs:left-6 xxs:relative xxs:left-3 xxs:top-0 xxxs:relative xxxs:left-6 xxxs:top-0">
                   {post.username}
                 </span>
                 <span className="text-sm text-gray-400 lg:block lg:-left-2 md:left-0  xs:relative xs:hidden xxs:hidden xxxs:hidden">• {post.time}</span>
-                <span className="absolute text-sm text-black left-[542px] lg:left-[542px] md:left-[542px] xxxs:left-[520px]">
+                <span className="absolute text-sm text-black left-[542px] xs:left-[479px] xxs:left-[430px] xxxs:left-[370px]  lg:left-[542px] md:left-[542px] ">
                   •••
                 </span>
               </div>
 
-              <div className="bg-white border border-gray-300 md:border-t md:border-r md:border-l md:rounded-sm  lg:border-t lg:border-r lg:border-l lg:rounded-sm w-[468px] h-[468px] xs:border-b-1 xs:border-t-0 xs:border-l-0 xs:border-r-0 xs:w-[468px] xs:relative xs:left-0 overflow-hidden flex justify-center items-center rounded-t-sm">
-                <img
-                  src={post.image}
-                  alt="Post image"
-                  className="w-full h-full object-cover"
-                />
-              </div>
+              <div className="bg-white border border-gray-300 
+              xxxs:w-[330px]
+  xxs:w-[380px] 
+  xs:w-[468px] 
+  w-[468px] 
+  md:border-t md:border-r md:border-l md:rounded-sm  
+  lg:border-t lg:border-r lg:border-l lg:rounded-sm 
+  xs:border-b xs:border-t-0 xs:border-l-0 xs:border-r-0 
+  xs:relative xs:left-0 
+  overflow-hidden flex justify-center items-center rounded-t-sm aspect-square">
+  
+  <img
+    src="post.jpg"
+    alt="Post image"
+    className="w-full h-full object-cover"
+  />
+</div>
 
-              <div className="h-14 w-[468px] md:border-r md:border-l lg:border-r lg:border-l xs:w-[468px]  xs:relative xs:left-0 xs:border-t-0 xs:border-l-0 xs:border-r-0 bg-white border border-t-0 border-gray-300 rounded-b flex items-center justify-between px-5">
+
+              <div className="h-14 w-[468px] md:border-r xxs:relative xxs:right-10  md:border-l lg:border-r lg:border-l xs:w-[468px]  xs:relative xs:left-0 xs:border-t-0 xs:border-l-0 xs:border-r-0 bg-white border border-t-0 border-gray-300 rounded-b flex items-center justify-between px-5">
                 <a
                   href="#"
-                  className="text-[14px] text-blue-700 hover:underline xs:text-bold"
+                  className="text-[14px] text-blue-700 hover:underline xs:text-bold xxs:ml-8 xs:-ml-2"
                 >
                   View insights
                 </a>
-                <button className="h-8 w-24 bg-blue-600 rounded-lg text-[14px] text-white font-semibold hover:bg-blue-500">
+                <button className="h-8 w-24 bg-blue-600 rounded-lg text-[14px] md:-mr-2 xs:mr-10 xxs:mr-12 xxxs:mr-36 text-white font-semibold hover:bg-blue-500">
                   Boost post
                 </button>
               </div>
@@ -153,14 +181,14 @@ function App() {
     </div>
 
  
-    <div class="flex md:flex-col w-full justify-around md:justify-start md:items-start md:space-y-6 px-2 py-2 md:mt-6 2xl:mt-12">
+    <div class="flex md:flex-col w-full justify-around md:justify-start md:items-start md:space-y-6 px-2 py-2 2xl:mt-12">
 
       <div class="flex flex-col w-48 md:flex-row items-center gap-1 md:gap-4 cursor-pointer md:ml-2 md:mt-5 lg:relative lg:left-3 md:pl-2 2xl:pl-4  hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
         <img src="https://brandeps.com/icon-download/H/Home-icon-vector-28.svg" class="w-6 h-6 shrink-0" />
         <span class="hidden 2xl:inline text-sm font-semibold lg:inline">Home</span>
       </div>
 
-      <div class="flex flex-col md:flex-row  w-48 items-center xs:hidden xxs:hidden xxxs:hidden lg:relative lg:left-3 gap-1 md:gap-4 md:ml-2 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
+      <div class="flex flex-col md:flex-row   w-48 items-center xs:hidden xxs:hidden xxxs:hidden lg:relative lg:left-3 gap-1 md:gap-4 md:ml-2 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
         <img src="https://brandeps.com/icon-download/S/Search-icon-vector-19.svg" class="w-6 h-6 shrink-0" />
         <span class="hidden 2xl:inline text-sm lg:inline">Search</span>
       </div>
@@ -170,8 +198,8 @@ function App() {
         <span class="hidden 2xl:inline text-sm lg:inline">Explore</span>
       </div>
 
-      <div class="flex flex-col md:flex-row  w-48 items-center lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
-        <img src="reel.png" class="w-6 h-6 shrink-0" />
+      <div class="flex flex-col md:flex-row  w-48 items-center xxxs:relative xxxs:top-1 lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
+        <img src="reel.png" class="w-5 h-5 shrink-0" />
         <span class="hidden 2xl:inline text-sm lg:inline">Reels</span>
       </div>
 
@@ -183,7 +211,7 @@ function App() {
 
 
       <div class="flex flex-col md:flex-row  w-48 items-center lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
-        <img src="send.png" class="w-6 h-6 -rotate-45 shrink-0" />
+        <img src="send.png" class="w-5 h-5 -rotate-45 shrink-0" />
         <span class="hidden 2xl:inline text-sm lg:inline">Messages</span>
       </div>
 
@@ -192,15 +220,28 @@ function App() {
         <span class="hidden 2xl:inline text-sm lg:inline">Notification</span>
       </div>
 
+<div class="flex items-center gap-2
+     xxs:hidden xxxs:hidden xl:flex 
+     w-48 
+     lg:relative lg:left-3 md:ml-2 
+     md:pl-2 2xl:pl-4 
+     hover:bg-gray-100 
+     rounded-lg px-2 py-2 
+     transition-colors duration-200 
+     cursor-pointer">
 
-   <div class="flex flex-col md:flex-row items-center  w-48 lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer md:pl-2 2xl:pl-4 hover:bg-gray-100 rounded-lg px-2 py-2 transition-colors duration-200">
-        <img src="list.png" class="w-6 h-6 shrink-0" />
-        <span class="hidden 2xl:inline text-sm lg:inline">Dashboard</span>
-      </div>
+  <img src="list.png" class="w-6 h-6 shrink-0" />
+
+  <span class="text-sm hidden lg:inline">
+    Dashboard
+  </span>
+</div>
 
 
 
-      <div class="flex flex-col md:flex-row items-center  w-48 lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer rounded-lg md:pl-2 2xl:pl-4 hover:bg-gray-100  px-2 py-2 transition-colors duration-200">
+
+
+      <div class="flex flex-col md:flex-row items-center w-48 lg:relative lg:left-3 md:ml-2 gap-1 md:gap-4 cursor-pointer rounded-lg md:pl-2 2xl:pl-4 hover:bg-gray-100  px-2 py-2 transition-colors duration-200">
         <img src="exeonic..png" class="rounded-full w-6 h-6 shrink-0 border border-gray-400" />
         <span class="hidden 2xl:inline text-sm lg:inline">Profile</span>
       </div>
@@ -434,55 +475,63 @@ function App() {
 
      
 
-<div class="lg:flex lg:justify-center relative">
 
-  <div class="
-    hidden 
-    xxs:hidden xxxs:hidden 
-    xs:block xs:relative xs:left-80 xs:-top-96 xs:w-10 xs:h-10 xs:justify-center xs:items-center xs:bg-white xs:rounded-full 
+<div class="flex p-4 relative
+  xxxs:ml-2 sm:ml-4
+  2xl:fixed 2xl:right-[2%] 2xl:top-[85%]
+  xl:fixed xl:right-[7%] xl:top-[84%] xl:z-[9999] xl:block 
+  md:fixed md:right-[6%] md:top-[60%] md:z-[9999] md:block
+  sm:fixed sm:right-[15%] sm:top-[60%] sm:z-[9999] sm:block
+  xs:hidden xxs:hidden xxxs:hidden
+">
 
-    lg:sticky lg:top-[100px] 
-    lg:flex lg:items-center lg:justify-between 
-    lg:w-[230px] lg:h-12 lg:px-6 lg:py-3 lg:rounded-full 
-    lg:shadow-lg lg:shadow-gray-400 lg:z-[9999]
-
-    md:sticky md:top-[100px] 
-    md:flex md:items-center md:justify-between 
-    md:w-[230px] md:h-12 md:px-6 md:py-3 md:rounded-full 
-    md:shadow-lg md:shadow-gray-400 md:z-[9999]
-
-    2xl:fixed 2xl:top-[100px] 2xl:left-[1000px] 
-    2xl:flex 2xl:w-[230px] 2xl:h-12 2xl:px-6 2xl:py-3 
-    2xl:rounded-full 2xl:shadow-lg 2xl:shadow-gray-400 2xl:z-[9999]
-
-    bg-white px-4 py-2 rounded-full shadow-md shadow-gray-300 w-fit space-x-3
-  ">
+  <div class="flex bg-white px-4 py-2 rounded-full shadow-md shadow-gray-300 space-x-3 w-fit">
 
     <div class="flex items-center space-x-2">
       <svg xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 24 24"
-        stroke-width="1.8"
-        stroke="currentColor"
-        class="w-6 h-6 text-black">
+           fill="none"
+           viewBox="0 0 24 24"
+           stroke-width="1.8"
+           stroke="currentColor"
+           class="w-6 h-6 text-black">
         <path stroke-linecap="round"
-          stroke-linejoin="round"
-          d="M7.5 14.25L10.5 11.25L13.5 14.25L16.5 11.25M21 12C21 16.4183 16.9706 20 12 20C10.6977 20 9.456 19.7531 8.33018 19.3091L3 21L4.69091 15.6698C4.24687 14.544 4 13.3023 4 12C4 7.58172 8.02944 4 13 4C17.9706 4 21 7.58172 21 12Z" />
+              stroke-linejoin="round"
+              d="M7.5 14.25L10.5 11.25L13.5 14.25L16.5 11.25M21 12C21 16.4183 16.9706 20 12 20C10.6977 20 9.456 19.7531 8.33018 19.3091L3 21L4.69091 15.6698C4.24687 14.544 4 13.3023 4 12C4 7.58172 8.02944 4 12 4C16.9706 4 21 7.58172 21 12Z" />
       </svg>
-      <span class="text-black font-semibold xs:hidden lg:block md:block">Messages</span>
+      <span class="text-black font-semibold hidden xs:inline sm:inline">Messages</span>
     </div>
 
     <div class="flex -space-x-2">
       <img class="w-8 h-8 rounded-full border-2 border-white object-cover"
-        src="https://randomuser.me/api/portraits/men/32.jpg" />
+           src="https://randomuser.me/api/portraits/men/32.jpg" alt="User 1" />
       <img class="w-8 h-8 rounded-full border-2 border-white object-cover"
-        src="https://randomuser.me/api/portraits/men/33.jpg" />
+           src="https://randomuser.me/api/portraits/men/33.jpg" alt="User 2" />
       <img class="w-8 h-8 rounded-full border-2 border-white object-cover"
-        src="https://randomuser.me/api/portraits/men/34.jpg" />
+           src="https://randomuser.me/api/portraits/men/34.jpg" alt="User 3" />
     </div>
 
   </div>
 </div>
+
+
+<div class="
+  fixed bottom-24 right-6 z-[9999]
+  xs:block sm:hidden xxs:hidden xxxs:hidden
+">
+  <div class="w-14 h-14 bg-white rounded-full shadow-lg flex items-center justify-center">
+    <svg xmlns="http://www.w3.org/2000/svg"
+         fill="none"
+         viewBox="0 0 24 24"
+         stroke-width="1.8"
+         stroke="currentColor"
+         class="w-6 h-6 text-black">
+      <path stroke-linecap="round"
+            stroke-linejoin="round"
+            d="M7.5 14.25L10.5 11.25L13.5 14.25L16.5 11.25M21 12C21 16.4183 16.9706 20 12 20C10.6977 20 9.456 19.7531 8.33018 19.3091L3 21L4.69091 15.6698C4.24687 14.544 4 13.3023 4 12C4 7.58172 8.02944 4 12 4C16.9706 4 21 7.58172 21 12Z" />
+    </svg>
+  </div>
+</div>
+
 
 
 

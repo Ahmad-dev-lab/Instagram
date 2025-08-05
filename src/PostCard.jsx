@@ -55,7 +55,7 @@ If you're ready to lead, innovate, and grow with us, we want to hear from you!
         <div className="flex space-x-4">
           <button className="text-gray-700 hover:text-black" onClick={toggleLike}>
             <img
-              className="w-5 h-5 relative right-3 bottom-2 xxs:left-1 xxxs:left-1 md:-left-3 lg:-left-2 xs:left-1"
+              className="w-5 h-5 relative right-3 bottom-2 xxs:-left-1 xxxs:-left-1 md:-left-3 lg:-left-2 xs:-left-1"
               src={
                 isLiked
                   ? "https://cdn-icons-png.flaticon.com/512/833/833472.png"
@@ -66,14 +66,14 @@ If you're ready to lead, innovate, and grow with us, we want to hear from you!
           </button>
           <button className="text-gray-700 hover:text-black">
             <img
-              className="w-5 h-5 relative right-4 bottom-2 xxs:left-1 xxxs:left-1 lg:-left-2 md:-left-3 xs:left-1"
+              className="w-5 h-5 relative -left-20 right-4 bottom-2 xxs:-left-1 xxxs:-left-1 lg:-left-2 md:-left-3 xs:-left-1"
               src="messenger.png"
               alt="Messenger"
             />
           </button>
           <button className="text-gray-700 hover:text-black">
             <img
-              className="w-4 h-5 -rotate-[42deg] relative right-4 bottom-3 md:-left-3 xxs:left-1 xxxs:left-1 lg:-left-2 xs:left-1"
+              className="w-4 h-5 -rotate-[42deg] relative right-4 bottom-3 md:-left-3 xxs:-left-1 xxxs:-left-1 lg:-left-2 xs:-left-1"
               src="send.png"
               alt="Send"
             />
@@ -81,7 +81,7 @@ If you're ready to lead, innovate, and grow with us, we want to hear from you!
         </div>
         <button className="text-gray-700 hover:text-black">
           <img
-            className="w-6 h-5 relative left-3 bottom-2 md:left-3 lg:left-3 xxxs:-left-1 xs:left-1 xxs:-left-1"
+            className="w-6 h-5 relative left-3 bottom-2 md:left-3 lg:left-3 xxxs:-left-[152px] xs:-left-9 xxs:-left-24"
             src="save.png"
             alt="Save"
           />
@@ -90,17 +90,17 @@ If you're ready to lead, innovate, and grow with us, we want to hear from you!
 
       {/* Likes */}
       {likeCount > 0 && (
-        <div className="text-sm text-gray-700 mb-1 relative right-3 md:-left-3 lg:-left-2 xxs:left-1 xxxs:left-1 xs:left-1">
+        <div className="text-sm text-gray-700 mb-1 relative right-3 md:-left-3 lg:-left-2 xxs:-left-1 xxxs:-left-1 xs:-left-1">
           {likeCount} {likeCount === 1 ? "like" : "likes"}
         </div>
       )}
 
       {/* Caption */}
       <div className="text-sm leading-snug whitespace-pre-line">
-        <span className="font-semibold relative right-3 xxs:left-1 xxxs:left-1 md:-left-3 lg:-left-2 xs:left-1">
+        <span className="font-semibold relative right-3 xxs:-left-1 xxxs:-left-1 md:-left-3 lg:-left-2 xs:-left-1">
           {post.username}
         </span>
-        <span className="relative right-3 xs:left-1 xxs:left-1 xxxs:left-1 md:-left-3 lg:-left-2 ml-1">
+        <span className="relative right-3 xs:-left-1 xxs:left-1 xxxs:-left-2 md:-left-3 lg:-left-2 ml-1">
           {" "}
           We’re Hiring.
           {!isExpanded && (
@@ -132,15 +132,15 @@ If you're ready to lead, innovate, and grow with us, we want to hear from you!
           value={comment}
           onChange={(e) => setComment(e.target.value)}
           placeholder="Add a comment..."
-          className="text-sm text-gray-700 w-[468px] outline-none relative right-2"
+          className="text-sm text-gray-700 w-[468px] outline-none relative right-0 xxxs:-left-1 md:-left-3 lg:-left-2 xs:-left-1 xxs:-left-1"
         />
         <div className="relative left-5 group w-10 ">
           <img
             src="emoji.png"
             alt="emoji"
-            className="w-5 h-5 cursor-pointer"
+            className="relative w-5 h-5 cursor-pointer xs:-left-11 xxs:-left-[105px] xxxs:-left-40 md:-left-0 lg:-left-0 xl:-left-0 2xl:-left-0"
           />
-          <div className="absolute bottom-[-80px] left-0 hidden group-hover:flex bg-white border border-gray-300 rounded shadow-md p-2 gap-1 z-[9999] w-44 flex-wrap text-xl">
+          <div className="absolute bottom-[-80px] left-0 hidden group-hover:flex  bg-white border border-gray-300 rounded shadow-md p-2 gap-1 z-[9999] w-44 flex-wrap text-xl">
             <span className="cursor-pointer">😀</span>
             <span className="cursor-pointer">😂</span>
             <span className="cursor-pointer">😍</span>
