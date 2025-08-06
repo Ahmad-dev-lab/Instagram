@@ -25,7 +25,7 @@ function App() {
 <div className="
   relative 
   w-[30px] 
-  xxxs:top-20 xxxs:right-[104px]
+  xxxs:top-20 xxxs:right-[125px]
   xxs:top-20 xxs:-left-[125px]
   xs:top-20 xs:right-28 xs:block
   sm:relative 
@@ -60,7 +60,7 @@ function App() {
               </div>
 
               <div className="bg-white border border-gray-300 
-              xxxs:w-[330px]
+              xxxs:w-[350px]
   xxs:w-[380px] 
   xs:w-[468px] 
   w-[468px] 
