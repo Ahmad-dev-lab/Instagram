@@ -81,7 +81,7 @@ If you're ready to lead, innovate, and grow with us, we want to hear from you!
         </div>
         <button className="text-gray-700 hover:text-black">
           <img
-            className="w-6 h-5 relative left-3 bottom-2 md:left-3 lg:left-3 xxxs:-left-[88px] xs:-left-9 xxs:-left-24"
+            className="w-6 h-5 relative left-3 bottom-2 md:left-3 lg:left-3 xxxs:-left-[94px] xs:-left-9 xxs:-left-24"
             src="save.png"
             alt="Save"
           />
@@ -138,7 +138,7 @@ If you're ready to lead, innovate, and grow with us, we want to hear from you!
           <img
             src="emoji.png"
             alt="emoji"
-            className="relative w-5 h-5 cursor-pointer xs:-left-11 xxs:-left-[105px] xxxs:-left-24 md:-left-0 lg:-left-0 xl:-left-0 2xl:-left-0"
+            className="relative w-5 h-5 cursor-pointer xs:-left-11 xxs:-left-[105px] xxxs:-left-[105px] md:-left-0 lg:-left-0 xl:-left-0 2xl:-left-0"
           />
           <div className="absolute bottom-[-80px] left-0 hidden group-hover:flex  bg-white border border-gray-300 rounded shadow-md p-2 gap-1 z-[9999] w-44 flex-wrap text-xl">
             <span className="cursor-pointer">😀</span>
