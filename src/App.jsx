@@ -25,7 +25,7 @@ function App() {
 <div className="
   relative 
   w-[30px] 
-  xxxs:top-20 xxxs:right-[117px]
+  xxxs:top-20 xxxs:right-[124px]
   xxs:top-20 xxs:-left-[125px]
   xs:top-20 xs:right-28 xs:block
   sm:relative 
