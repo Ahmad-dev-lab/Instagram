@@ -54,7 +54,7 @@ function App() {
                   {post.username}
                 </span>
                 <span className="text-sm text-gray-400 lg:block lg:-left-2 md:left-0  xs:relative xs:hidden xxs:hidden xxxs:hidden">• {post.time}</span>
-                <span className="absolute text-sm text-black left-[542px] xs:left-[479px] xxs:left-[430px] xxxs:left-[420px]  lg:left-[542px] md:left-[542px] ">
+                <span className="absolute text-sm text-black left-[542px] xs:left-[479px] xxs:left-[430px] xxxs:left-[414px]  lg:left-[542px] md:left-[542px] ">
                   •••
                 </span>
               </div>
