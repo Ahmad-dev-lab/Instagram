@@ -48,19 +48,19 @@ function App() {
                 <img
                   src={post.logo}
                   alt="Exeonic Logo"
-                  className="w-9 h-9 rounded-full border border-gray-300 md:left-0 object-cover lg:left-0 xs:w-8 xs:h-8  xs:relative xs:left-6 xs:top-0 xxs:relative xxs:left-3 xxs:top-0 xxxs:relative xxxs:left-3 xxxs:top-0"
+                  className="w-9 h-9 rounded-full border border-gray-300 md:left-0 object-cover lg:left-0 xs:w-8 xs:h-8  xs:relative xs:left-6 xs:top-0 xxs:relative xxs:left-3 xxs:top-0 xxxs:relative xxxs:left-6 xxxs:top-0"
                 />
                 <span className="text-[14px] font-semibold text-black lg:left-0 md:left-0  xs:relative xs:left-6 xxs:relative xxs:left-3 xxs:top-0 xxxs:relative xxxs:left-6 xxxs:top-0">
                   {post.username}
                 </span>
                 <span className="text-sm text-gray-400 lg:block lg:-left-2 md:left-0  xs:relative xs:hidden xxs:hidden xxxs:hidden">• {post.time}</span>
-                <span className="absolute text-sm text-black left-[542px] xs:left-[479px] xxs:left-[430px] xxxs:left-[370px]  lg:left-[542px] md:left-[542px] ">
+                <span className="absolute text-sm text-black left-[542px] xs:left-[479px] xxs:left-[430px] xxxs:left-[425px]  lg:left-[542px] md:left-[542px] ">
                   •••
                 </span>
               </div>
 
               <div className="bg-white border border-gray-300 
-              xxxs:w-[365px]
+              xxxs:w-[375px]
   xxs:w-[380px] 
   xs:w-[468px] 
   w-[468px] 
@@ -85,7 +85,7 @@ function App() {
                 >
                   View insights
                 </a>
-                <button className="h-8 w-24 bg-blue-600 rounded-lg text-[14px] md:-mr-2 xs:mr-10 xxs:mr-12 xxxs:mr-36 text-white font-semibold hover:bg-blue-500">
+                <button className="h-8 w-24 bg-blue-600 rounded-lg text-[14px] md:-mr-2 xs:mr-10 xxs:mr-12 xxxs:mr-24 text-white font-semibold hover:bg-blue-500">
                   Boost post
                 </button>
               </div>
