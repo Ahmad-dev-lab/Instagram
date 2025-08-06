@@ -60,7 +60,7 @@ function App() {
               </div>
 
               <div className="bg-white border border-gray-300 
-              xxxs:w-[350px]
+              xxxs:w-[365px]
   xxs:w-[380px] 
   xs:w-[468px] 
   w-[468px] 
